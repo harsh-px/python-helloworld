@@ -4,3 +4,5 @@
 /deb_dist/
 /dist/
 /helloworld.egg-info/
+tutorial-env
+.idea

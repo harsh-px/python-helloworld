@@ -4,15 +4,17 @@ import argparse
 import sys
 
 import helloworld
-
+from pkg_a import utils_a
 
 parser = argparse.ArgumentParser(
         description='A simple example program to print a friendly greeting.')
 parser.add_argument('--version', action='version',
         version='helloworld ' + helloworld.__version__)
 
+def foo():
+    return utils_a.autils()
 
-def main(argv=None):
+def do(argv=None):
     if argv is None:
         argv = sys.argv
 
