@@ -6,4 +6,4 @@ import sys
 import helloworld.hello
 
 if __name__ == '__main__':
-    sys.exit(helloworld.hello.do())
+    sys.exit(helloworld.hello.foo())
